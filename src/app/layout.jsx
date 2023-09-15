@@ -1,4 +1,7 @@
+"use client"
+
 import "./globals.css"
+import { useEffect } from 'react';
 import Footer from "@/components/footer/footer"
 import Navbar from "../components/navbar/navbar"
 
@@ -9,6 +12,17 @@ export const metadata = {
 }
  
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js';
+    script.async = false;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
  return (
     <html lang="en">
       <body>
@@ -17,7 +31,6 @@ export default function RootLayout({ children }) {
           { children }
         </main>
         <Footer/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
       </body>
     </html>
   )

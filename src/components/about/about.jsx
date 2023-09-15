@@ -3,13 +3,13 @@ export default function About() {
 		<>
 			<div id="about" className="lg:grid-cols-2 sm:grid-cols-1 grid py-14">
 				<div>
-					<h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Sobre mi 😁</h2>
+					<h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Sobre mi </h2>
 					<p className="px-20 sm:px-3 font-semibold text-gray-700">
 						Soy un desarrollador FullStack apasionado por crear soluciones web de calidad. Con experiencia en proyectos diversos, me especializo en tecnologías front-end, así como en back-end. Mi enfoque es convertir requisitos comerciales en soluciones técnicas sólidas. Siempre busco desafíos emocionantes y oportunidades para seguir aprendiendo y creciendo en este campo dinámico. En un futuro no muy lejano quiero especializarme en la parte back-end.
 					</p>
 				</div>
 				<div>
-					<h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Mis habilidades 🎯</h2>
+					<h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Mis habilidades </h2>
 					<div className="flex flex-row">
 						<div className="flex flex-col w-1/3 items-center">
 							<div className="ms-5">

@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <div id="home" className="flex mx-auto justify-around fondo-home py-16 px-10">
         <div className="my-auto">
-          <h3 className="font-bold text-lg mb-2 text-slate-600">Hola a todos 👋, yo soy</h3>
+          <h3 className="font-bold text-lg mb-2 text-slate-600">Hola a todos , yo soy</h3>
           <h1 className="font-bold text-3xl text-slate-800">Ale Ali, Farid</h1>
           <h2 className="font-bold text-sm mt-1 text-slate-900">Programador FullStack</h2>
           <button 

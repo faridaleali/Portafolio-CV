@@ -4,7 +4,7 @@ export default function Career() {
   return (
     <>
       <div id="career">
-      <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Educacion 👨‍🏫</h2>
+      <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Educacion</h2>
         <div id="about" className="lg:grid-cols-3 sm:grid-cols-1 grid py-14">
           <div>
             <Image
@@ -14,9 +14,9 @@ export default function Career() {
               alt="Universidad Nacional de Tucuman"
               className="flex justify-center mx-auto mb-2"
             />
-            <h2 className="flex font-bold text-lg justify-center text-slate-800">Universidad Nacional de Tucuman</h2>
+            <h3 className="flex font-bold text-lg justify-center text-slate-800">Universidad Nacional de Tucuman</h3>
             <div className="flex justify-center mb-2">
-              <h3 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Contador publico (ene/18 - jul-23)</h3>
+              <h4 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Contador publico (ene/18 - jul-23)</h4>
             </div>
             <p className="flex justify-center px-20 sm:px-3 font-semibold text-gray-700">Conocimientos sobre:</p>
             <div className="flex mt-3 justify-center">
@@ -38,9 +38,9 @@ export default function Career() {
               alt="Universidad Nacional de Tucuman"
               className="flex justify-center mx-auto mb-2"
             />
-            <h2 className="flex font-bold text-lg justify-center text-slate-800">RollingCode School: Bootcamp</h2>
+            <h3 className="flex font-bold text-lg justify-center text-slate-800">RollingCode School: Bootcamp</h3>
             <div className="flex justify-center mb-2">
-              <h3 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Fullstack Engineer (ene/23 - sep-23)</h3>
+              <h4 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Fullstack Engineer (ene/23 - sep-23)</h4>
             </div>
             <p className="flex justify-center px-20 sm:px-3 font-semibold text-gray-700">Conocimientos sobre:</p>
             <div className="flex mt-3 justify-center">
@@ -50,7 +50,7 @@ export default function Career() {
                 <li>Uso de tecnologias Frontend</li>
                 <li>Uso de tecnologias Backend</li>
                 <li>Creacion de productos y proyectos</li>
-                <li>Practica de ingles "Speeking sessions"</li>
+                <li>Practica de ingles Speeking sessions</li>
               </ul>
             </div>
           </div>
@@ -62,9 +62,9 @@ export default function Career() {
               alt="Universidad Nacional de Tucuman"
               className="flex justify-center mx-auto mb-2"
             />
-            <h2 className="flex font-bold text-lg justify-center text-slate-800">NoBook English School</h2>
+            <h3 className="flex font-bold text-lg justify-center text-slate-800">NoBook English School</h3>
             <div className="flex justify-center mb-2">
-              <h3 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Comunicacion profesional en ingles (ago/23 - actual)</h3>
+              <h4 className="flex justify-center flex font-semibold italic text-sm text-slate-600">Comunicacion profesional en ingles (ago/23 - actual)</h4>
             </div>
             <p className="flex justify-center px-20 sm:px-3 font-semibold text-gray-700">Conocimientos sobre:</p>
             <div className="flex mt-3 justify-center">

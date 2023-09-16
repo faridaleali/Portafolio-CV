@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <>
       <div id="contact">
-        <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Contactame!</h2>
+        <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Contactame! 📱</h2>
         <div className="flex flex-row justify-around mt-5  mx-auto w-3/4">
           <div className="flex flex-col justify-center items-center">
             <a className="flex flex-col justify-center items-center" target="_blank" href={apiWhatsApp} rel="noopener noreferrer">

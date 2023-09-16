@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <div id="projects">
-        <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Proyectos realizados</h2>
+        <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Proyectos realizados 👨‍🏫</h2>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
           <div className="bg-white border border-gray-200 rounded-lg shadow space-x-4 px-5 pt-1 dark:bg-gray-800 dark:border-gray-700">
               <Link href="/" className="flex justify-center">

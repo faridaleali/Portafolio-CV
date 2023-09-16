@@ -4,7 +4,7 @@ export default function Career() {
   return (
     <>
       <div id="career">
-      <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Educacion</h2>
+      <h2 className="flex font-bold text-lg justify-center text-slate-800 mb-3">Educacion 📚</h2>
         <div id="about" className="lg:grid-cols-3 sm:grid-cols-1 grid py-14">
           <div>
             <Image
